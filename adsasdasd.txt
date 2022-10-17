@@ -1,0 +1,86 @@
+INSERT [dbo].[NhanVien] ([maNhanVien],  [diaChi], [email], [gioiTinh],  [ngaySinh], [sdt], [tenNhanVien]) VALUES (N'NV001', N'88 Hùng Vương', N'hohuunhan1247@gmail.com', 1,  CAST(N'1999-11-05' AS Date), N'088888868', N'Hồ Hữu Nhân')
+INSERT [dbo].[NhanVien] ([maNhanVien],  [diaChi], [email], [gioiTinh],  [ngaySinh], [sdt], [tenNhanVien]) VALUES (N'NV002', N'93 Hoàng Văn Thụ', N'tranlongmii@gmail.com', 1,  CAST(N'2001-01-13' AS Date), N'0123456789', N'Trần Thiên Long')
+INSERT [dbo].[NhanVien] ([maNhanVien],  [diaChi], [email], [gioiTinh],  [ngaySinh], [sdt], [tenNhanVien]) VALUES (N'NV003', N'61 Đoàn Thị Điểm', N'thaitricuong@gmail.com', 0,  CAST(N'1998-08-25' AS Date), N'0868686868', N'Thái Trí Cường')
+
+
+INSERT [dbo].[TaiKhoan] ([maNhanVien], [matKhau], [tenDangNhap]) VALUES (N'NV001', N'123456', N'hohuunhan')
+INSERT [dbo].[TaiKhoan] ([maNhanVien], [matKhau], [tenDangNhap]) VALUES (N'NV002', N'123456', N'tranthienlong')
+INSERT [dbo].[TaiKhoan] ([maNhanVien], [matKhau], [tenDangNhap]) VALUES (N'NV003', N'123456', N'thaitricuong')
+
+
+INSERT [dbo].[KhachHang] ([maKhachHang], [diaChi], [sdt], [tenKhachHang]) VALUES (N'KH001', N'56 CMT8', N'0294724683', N'Hoàng Thùy Linh')
+INSERT [dbo].[KhachHang] ([maKhachHang], [diaChi], [sdt], [tenKhachHang]) VALUES (N'KH002', N'74 Bùi Đạt', N'0327487012', N'Trịnh Thu Thảo')
+INSERT [dbo].[KhachHang] ([maKhachHang], [diaChi], [sdt], [tenKhachHang]) VALUES (N'KH003', N'127 Phan Đình Phùng', N'0242401792', N'Nguyễn Văn A')
+INSERT [dbo].[KhachHang] ([maKhachHang], [diaChi], [sdt], [tenKhachHang]) VALUES (N'KH004', N'272 Lương Khánh Thiện', N'0974824992', N'Trần Ngọc')
+INSERT [dbo].[KhachHang] ([maKhachHang], [diaChi], [sdt], [tenKhachHang]) VALUES (N'KH005', N'01 Hồ Thị Kỷ 1', N'029447289284', N'Thái Thị Liễu')
+INSERT [dbo].[KhachHang] ([maKhachHang], [diaChi], [sdt], [tenKhachHang]) VALUES (N'KH006', N'Bình Dương', N'0975883344', N'Đoàn Ngọc Thành Nhân')
+INSERT [dbo].[KhachHang] ([maKhachHang], [diaChi], [sdt], [tenKhachHang]) VALUES (N'KH007', N'Bình Phước', N'0864735647', N'Vy Đan')
+INSERT [dbo].[KhachHang] ([maKhachHang], [diaChi], [sdt], [tenKhachHang]) VALUES (N'KH008', N'Thanh Hóa', N'0846372854', N'Hoàng Vy')
+INSERT [dbo].[KhachHang] ([maKhachHang], [diaChi], [sdt], [tenKhachHang]) VALUES (N'KH009', N'12 Nguyễn Công Trí', N'0674837264', N'Minh Thanh')
+INSERT [dbo].[KhachHang] ([maKhachHang], [diaChi], [sdt], [tenKhachHang]) VALUES (N'KH010', N'33 Phan Đình Phùng Hầ Nội', N'0787432467', N'Văn Hóa An')
+
+INSERT [dbo].[NhaCungCap] ( [diaChi], [email], [sdt], [tenNCC]) VALUES ( N' Số 55 Quang Trung, Nguyễn Du, Hai Bà Trưng, Hà Nội', N'cskh_online@nxbkimdong.com.vn', N'1900571595', N'Nhà xuất bản Kim Đồng')
+INSERT [dbo].[NhaCungCap] ( [diaChi], [email], [sdt], [tenNCC]) VALUES ( N'Quận 3  TP Hồ Chí Minh', N'hopthubandoc@nxbtre.com.vn', N'1938437450', N'Nhà Xuất Bản Trẻ')
+INSERT [dbo].[NhaCungCap] ( [diaChi], [email], [sdt], [tenNCC]) VALUES ( N'Nhà NV22  Khu 12  Ngõ 13 Lĩnh Nam  P. Mai Động  Q. Hoàng Mai  TP. Hà Nội', N'contacts@dinhtibooks.vn', N'2473093388', N'Công ty TNHH Thương mại và Dịch vụ Văn hoá Đinh Tị')
+INSERT [dbo].[NhaCungCap] ( [diaChi], [email], [sdt], [tenNCC]) VALUES ( N'Số 43 Đường D4 Khu Him Lam Kênh Tẻ Phường Tân Hưng Quận 7 Hồ Chí Minh ', N'hanhthuan@gmail.com', N'0310576040', N'CÔNG TY TNHHMTV TM HẠNH THUẬN ')
+INSERT [dbo].[NhaCungCap] ( [diaChi], [email], [sdt], [tenNCC]) VALUES ( N'59 Đỗ Quang, phường Trung Hoà, quận Cầu Giấy, Hà Nội', N'nhanam@gmail.com', N'9101603420', N'Công Ty Cổ Phần Văn Hoá và Truyền Thông Nhã Nam')
+INSERT [dbo].[NhaCungCap] ( [diaChi], [email], [sdt], [tenNCC]) VALUES ( N'449 Bạch Mai  Hai Bà Trưng  Hà Nội', N'tanviet@gmail.com', N'0812757799', N'Nhà sách Tân Việt')
+INSERT [dbo].[NhaCungCap] ( [diaChi], [email], [sdt], [tenNCC]) VALUES ( N'Tầng 3  Dream Home Center  11a ngõ 282 Nguyễn Huy Tưởng Thanh Xuân  Hà Nội', N'info@alphabooks.vn', N'0932329959', N'Công ty cổ phần Sách Alpha')
+INSERT [dbo].[NhaCungCap] ( [diaChi], [email], [sdt], [tenNCC]) VALUES ( N'Số 19  21 Lô B Đường Trường Sơn Phường 15 Quận 10 Hồ Chí Minh', N'thienlong@gmail.com', N'0287543728', N'Công ty CP Tập đoàn Thiên Long Hoàn Cầu ')
+INSERT [dbo].[NhaCungCap] ( [diaChi], [email], [sdt], [tenNCC]) VALUES ( N' 808 Đường Láng Phường Láng Thượng Quận Đống Đa Hà Nội', N'contact@nhasachminhthang.vn', N'0101883129', N'Nhà sách Minh thắng')
+INSERT [dbo].[NhaCungCap] ( [diaChi], [email], [sdt], [tenNCC]) VALUES ( N'224 đường 28 Phường Bình Trị Đông B Quận Bình Tân Thành phố Hồ Chí Minh Việt Nam', N'toanphuc@gmail.com', N'0312945825', N'Dn Tư Nhân Thương Mại Toàn Phúc')
+
+INSERT [dbo].[TheLoai] ([maLoai], [tenTheLoai]) VALUES (N'TL001', N'Thiếu Nhi')
+INSERT [dbo].[TheLoai] ([maLoai], [tenTheLoai]) VALUES (N'TL002', N'Giáo Khoa-Tham Khảo')
+INSERT [dbo].[TheLoai] ([maLoai], [tenTheLoai]) VALUES (N'TL003', N'Văn Học')
+INSERT [dbo].[TheLoai] ([maLoai], [tenTheLoai]) VALUES (N'TL004', N'Tâm Lý-Kỹ Năng Sống')
+INSERT [dbo].[TheLoai] ([maLoai], [tenTheLoai]) VALUES (N'TL005', N'Manga-Comic')
+INSERT [dbo].[TheLoai] ([maLoai], [tenTheLoai]) VALUES (N'TL006', N'Sách Học Ngoai Ngữ')
+INSERT [dbo].[TheLoai] ([maLoai], [tenTheLoai]) VALUES (N'TL007', N'Kinh Tế')
+INSERT [dbo].[TheLoai] ([maLoai], [tenTheLoai]) VALUES (N'TL008', N'Khoa Học Kĩ Thuật')
+INSERT [dbo].[TheLoai] ([maLoai], [tenTheLoai]) VALUES (N'TL009', N'Lịch Sử-Địa Lý-Tôn Giáo')
+INSERT [dbo].[TheLoai] ([maLoai], [tenTheLoai]) VALUES (N'TL010', N'Nuôi Dạy Con')
+
+
+
+INSERT [dbo].[Sach] ([maSach], [donGia], [namSanXuat],[namXuatBan] , [soLuong], [tenSach], [tenTacGia], [maLoai], [tenNCC]) VALUES (N'SA001', 40000, 2020, 2018, 20, N'Lớp Học Mật Ngữ  Tập 19', N'B R O group', N'TL001', N'Nhà xuất bản Kim Đồng')
+INSERT [dbo].[Sach] ([maSach], [donGia], [namSanXuat], [namXuatBan], [soLuong], [tenSach], [tenTacGia], [maLoai], [tenNCC]) VALUES (N'SA002', 63750, 2020, 2019, 120, N'Hoàng Tử Bé', N'Antoine De Saint Exupery', N'TL001', N'Nhà Xuất Bản Trẻ')
+INSERT [dbo].[Sach] ([maSach], [donGia], [namSanXuat], [namXuatBan], [soLuong], [tenSach], [tenTacGia], [maLoai], [tenNCC]) VALUES (N'SA003', 4875, 2019, 2017, 200, N'Tập Tô Màu Nhà Trẻ  Chủ Đề Động Vật Dưới Nước', N'Trung Kiên', N'TL001',  N'Công ty TNHH Thương mại và Dịch vụ Văn hoá Đinh Tị')
+INSERT [dbo].[Sach] ([maSach], [donGia], [namSanXuat], [namXuatBan], [soLuong], [tenSach], [tenTacGia], [maLoai], [tenNCC]) VALUES (N'SA004', 164000, 2019, 2021, 198, N'Sách Giáo Khoa Bộ Lớp 10', N'Bộ Giáo Dục Và Đào Tạo', N'TL001', N'CÔNG TY TNHHMTV TM HẠNH THUẬN ')
+INSERT [dbo].[Sach] ([maSach], [donGia], [namSanXuat], [namXuatBan], [soLuong], [tenSach], [tenTacGia], [maLoai], [tenNCC]) VALUES (N'SA005', 29450, 2021, 2021, 200, N'Atlat Địa Lí Việt Nam', N'Bộ Giáo Dục Và Đào Tạo', N'TL001',N'Công Ty Cổ Phần Văn Hoá và Truyền Thông Nhã Nam')
+INSERT [dbo].[Sach] ([maSach], [donGia], [namSanXuat], [namXuatBan], [soLuong], [tenSach], [tenTacGia], [maLoai], [tenNCC]) VALUES (N'SA006', 180000, 2021, 2021, 89, N'Sách Giáo Khoa Bộ Lớp 12', N'Bộ Giáo Dục Và Đào Tạo', N'TL002', N'Nhà sách Tân Việt')
+INSERT [dbo].[Sach] ([maSach], [donGia], [namSanXuat], [namXuatBan], [soLuong], [tenSach], [tenTacGia], [maLoai], [tenNCC]) VALUES (N'SA007', 67150, 2021, 2021, 60, N'Nhà Giả Kim ', N'Paulo Coelho', N'TL003',N'Công ty cổ phần Sách Alpha')
+INSERT [dbo].[Sach] ([maSach], [donGia], [namSanXuat], [namXuatBan], [soLuong], [tenSach], [tenTacGia], [maLoai], [tenNCC]) VALUES (N'SA008', 147000, 2021, 2021, 55, N'Hai Số Phận', N'Jeffrey Archer', N'TL003', N'Công ty CP Tập đoàn Thiên Long Hoàn Cầu ')
+INSERT [dbo].[Sach] ([maSach], [donGia], [namSanXuat], [namXuatBan], [soLuong], [tenSach], [tenTacGia], [maLoai], [tenNCC]) VALUES (N'SA009', 59250, 2021, 2021, 78, N'Your Name', N'Shinkai Makoto', N'TL003',  N'Nhà sách Minh thắng')
+INSERT [dbo].[Sach] ([maSach], [donGia], [namSanXuat], [namXuatBan], [soLuong], [tenSach], [tenTacGia], [maLoai], [tenNCC]) VALUES (N'SA010', 148800, 2021, 2017, 88, N'Thay Đổi Cuộc Sống Với Nhân Số Học', N'Lê Đỗ Quỳnh Hương', N'TL004', N'Dn Tư Nhân Thương Mại Toàn Phúc')
+
+
+
+INSERT [dbo].[HoaDon] ([maHoaDon], [ghiChu], [ngayLapHD], [maKhachHang], [maNhanVien]) VALUES (N'HD20211015001', N'', CAST(N'2021-10-15' AS Date), N'KH001', N'NV001')
+INSERT [dbo].[HoaDon] ([maHoaDon], [ghiChu], [ngayLapHD], [maKhachHang], [maNhanVien]) VALUES (N'HD20211015002', N'', CAST(N'2021-10-15' AS Date), N'KH002', N'NV001')
+INSERT [dbo].[HoaDon] ([maHoaDon], [ghiChu], [ngayLapHD], [maKhachHang], [maNhanVien]) VALUES (N'HD20211018001', N'', CAST(N'2021-10-18' AS Date), N'KH003', N'NV001')
+INSERT [dbo].[HoaDon] ([maHoaDon], [ghiChu], [ngayLapHD], [maKhachHang], [maNhanVien]) VALUES (N'HD20211018002', N'', CAST(N'2021-10-18' AS Date), N'KH004', N'NV002')
+INSERT [dbo].[HoaDon] ([maHoaDon], [ghiChu], [ngayLapHD], [maKhachHang], [maNhanVien]) VALUES (N'HD20211020001', N'', CAST(N'2021-10-20' AS Date), N'KH005', N'NV001')
+INSERT [dbo].[HoaDon] ([maHoaDon], [ghiChu], [ngayLapHD], [maKhachHang], [maNhanVien]) VALUES (N'HD20211104001', N'', CAST(N'2021-11-04' AS Date), N'Kh007', N'NV003')
+INSERT [dbo].[HoaDon] ([maHoaDon], [ghiChu], [ngayLapHD], [maKhachHang], [maNhanVien]) VALUES (N'HD20211104002', N'', CAST(N'2021-11-04' AS Date), N'KH008', N'NV002')
+INSERT [dbo].[HoaDon] ([maHoaDon], [ghiChu], [ngayLapHD], [maKhachHang], [maNhanVien]) VALUES (N'HD20211117001', N'', CAST(N'2021-11-17' AS Date), N'KH010', N'NV003')
+INSERT [dbo].[HoaDon] ([maHoaDon], [ghiChu], [ngayLapHD], [maKhachHang], [maNhanVien]) VALUES (N'HD20211117002', N'', CAST(N'2021-11-17' AS Date), N'KH011', N'NV003')
+
+
+INSERT [dbo].[CT_HoaDon] ([maHoaDon], [maSach], [donGia], [soLuong]) VALUES (N'HD20211015001', N'SA001', 63009, 1)
+INSERT [dbo].[CT_HoaDon] ([maHoaDon], [maSach], [donGia], [soLuong]) VALUES (N'HD20211015002', N'SA002', 156000, 1)
+INSERT [dbo].[CT_HoaDon] ([maHoaDon], [maSach], [donGia], [soLuong]) VALUES (N'HD20211018001', N'SA003', 76000, 1)
+INSERT [dbo].[CT_HoaDon] ([maHoaDon], [maSach], [donGia], [soLuong]) VALUES (N'HD20211018002', N'SA004', 20000, 4)
+INSERT [dbo].[CT_HoaDon] ([maHoaDon], [maSach], [donGia], [soLuong]) VALUES (N'HD20211020001', N'SA005', 148800, 1)
+INSERT [dbo].[CT_HoaDon] ([maHoaDon], [maSach], [donGia], [soLuong]) VALUES (N'HD20211104001', N'SA006', 53040, 6)
+INSERT [dbo].[CT_HoaDon] ([maHoaDon], [maSach], [donGia], [soLuong]) VALUES (N'HD20211104002', N'SA007', 70400, 2)
+INSERT [dbo].[CT_HoaDon] ([maHoaDon], [maSach], [donGia], [soLuong]) VALUES (N'HD20211117001', N'SA008', 63750, 1)
+INSERT [dbo].[CT_HoaDon] ([maHoaDon], [maSach], [donGia], [soLuong]) VALUES (N'HD20211117002', N'SA009', 4875, 1)
+
+
+INSERT [dbo].[PhieuDatHang] ([maPhieu], [maKhachHang], [maSach], [tenSach],[maLoai],[soLuong],[donGia],[ngayLapPhieu]) VALUES (N'P001', N'KH001', N'SA001',N'Atlat Địa Lí Việt Nam', N'TL001',3,29450,CAST(N'2022-10-04' AS Date))
+INSERT [dbo].[PhieuDatHang] ([maPhieu], [maKhachHang], [maSach], [tenSach],[maLoai],[soLuong],[donGia],[ngayLapPhieu]) VALUES (N'P002', N'KH002', N'SA002',N'Atlat Địa Lí Việt Nam', N'TL001',3,29450,CAST(N'2022-10-04' AS Date))
+INSERT [dbo].[PhieuDatHang] ([maPhieu], [maKhachHang], [maSach], [tenSach],[maLoai],[soLuong],[donGia],[ngayLapPhieu]) VALUES (N'P003', N'KH003', N'SA003',N'Atlat Địa Lí Việt Nam', N'TL001',3,29450,CAST(N'2022-10-04' AS Date))
+INSERT [dbo].[PhieuDatHang] ([maPhieu], [maKhachHang], [maSach], [tenSach],[maLoai],[soLuong],[donGia],[ngayLapPhieu]) VALUES (N'P004', N'KH004', N'SA004',N'Atlat Địa Lí Việt Nam', N'TL001',3,29450,CAST(N'2022-10-04' AS Date))
+INSERT [dbo].[PhieuDatHang] ([maPhieu], [maKhachHang], [maSach], [tenSach],[maLoai],[soLuong],[donGia],[ngayLapPhieu]) VALUES (N'P005', N'KH005', N'SA005',N'Atlat Địa Lí Việt Nam', N'TL001',3,29450,CAST(N'2022-10-04' AS Date))
+INSERT [dbo].[PhieuDatHang] ([maPhieu], [maKhachHang], [maSach], [tenSach],[maLoai],[soLuong],[donGia],[ngayLapPhieu]) VALUES (N'P006', N'KH006', N'SA006',N'Atlat Địa Lí Việt Nam', N'TL001',3,29450,CAST(N'2022-10-04' AS Date))
